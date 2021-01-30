@@ -42,16 +42,19 @@ A few images showing sample results are provided below:
 
 Results of the 6-frame translation:
 ![results of fasta_an.py -t](https://github.com/V-Varga/FASTA_Analysis_Toolbox/blob/main/FASTA_an_imgs/results_t.png)
+
 This portion of the program translates the sequences from the input DNA nucleotide FASTA into the protein products of the 6 possible reading frames. It also highlights which sequence(s) is/are most likely to be the real reading frame, based on which protein sequence(s) is are the longest.
 
 Results of the nucleotide frequency calculations:
 ![results of fasta_an.py -c](https://github.com/V-Varga/FASTA_Analysis_Toolbox/blob/main/FASTA_an_imgs/results_c.png)
 
 ![results of fasta_an.py -c](https://github.com/V-Varga/FASTA_Analysis_Toolbox/blob/main/FASTA_an_imgs/results_c_graphics.png)
+
 This portion of the program calculates the frequency with which each of the 2 standard DNA nucleotides appear in each sequence in the FASTA file, as well as the GC content of each sequence. A companion pdf will be made to the user-specified output file that includes graphical depictions of the relative nucleotide frequencies for each sequence.
 
 Results of the BLAST:
 ![results of fasta_an.py -b](https://github.com/V-Varga/FASTA_Analysis_Toolbox/blob/main/FASTA_an_imgs/results_b.png)
+
 This portion of the program uses BioPython to perform a BLASTn analysis of the input FASTA sequence, the results of which are outputted in XML format. It is therefore suggested that the specified output file have a '.xml' extension.
 
 ## Support

@@ -1,0 +1,1 @@
+This folder contains images of results files, to be linked to the README.md document on the main branch of this repository. 
